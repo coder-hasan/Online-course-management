@@ -10,7 +10,6 @@ a:active, a:hover, a:focus {
   outline: 0 none;
   text-decoration: none;
 }
-img {max-width:100%;}
 strong {font-weight:500;}
 /*----------------------------------------*/
 /*  Heading CSS
@@ -112,7 +111,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
     font-weight: 700;
     color: #ffffff;
     padding: 0 20px;
-    min-width: 140px;
+    width: 140px;
     height: 40px;
     line-height: 38px;
     text-align: center;

@@ -16,6 +16,22 @@
     // });
 // });
 
+// Login & Registration 
+
+	$('.input_group input').focus(function() {
+		$(this).parent().children('span.underline').css({
+			"transform": "scale(1)"
+		})
+	});
+
+	$('.input_group input').blur(function() {
+			$(this).parent().children('span.underline').css({
+				"transform": "scale(0, 1)"
+			})
+		});
+
+	$('input').after('<span class="underline"></span>')
+
 /*--------------------------
 mobile-menu
 ---------------------------- */	
