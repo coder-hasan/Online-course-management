@@ -976,6 +976,9 @@ h1, h2, h3, h4, h5, h6 {
 	border:0;
 	padding:0;
 }
+.course-details img{
+	width: 100%;
+}
 .course-info ul li {
     display: inline-block;
     border-right: 1px solid #e5e5e5;
@@ -1150,6 +1153,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-size:14px;
 	height:46px;
 	line-height:46px;
+	width: 100%;
+	margin-bottom: 20px;
 }
 
 
